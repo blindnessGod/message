@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Users\Administrator\Desktop\config.xsd">
+	<Receiver>
+		<ReceiverQueue>
+			<ReceiverName>MqReceive</ReceiverName>
+			<ReceiverQueueName>CT_TEST2</ReceiverQueueName>
+			<ReceiverQueueManager>bcg.queue.manager53</ReceiverQueueManager>
+			<ReceiverHostName>172.40.0.53</ReceiverHostName>
+			<ReceiverChannel>java.channel</ReceiverChannel>
+			<ReceiverPort>1416</ReceiverPort>
+			<ReceiverCCSID>1208</ReceiverCCSID>
+		</ReceiverQueue>		
+	</Receiver>
+	<Sender>
+		<SenderQueue>
+			<SenderName>CtrlCenterMQSenderCommon</SenderName>
+			<SenderQueueName>CCQueue</SenderQueueName>
+			<SenderQueueManager>bcg.queue.manager53</SenderQueueManager>
+			<SenderHostName>172.40.0.53</SenderHostName>
+			<SenderChannel>java.channel</SenderChannel>
+			<SenderPort>1416</SenderPort>
+			<SenderCCSID>1208</SenderCCSID>
+		</SenderQueue>
+	</Sender>
+	<Parameters>
+		<Parm>
+			<ParmName>ThreadPoolCapacity</ParmName>
+			<Value>5</Value>
+		</Parm>
+		<Parm>
+			<ParmName>IBizReceiverImpl</ParmName>
+			<Value>com.wcc.mqclient.MqClient</Value>
+		</Parm>
+		<Parm>
+			<ParmName>Product</ParmName>
+			<Value>org.mc.protocol.mq.SandR.impl.MqIBMReceive</Value>
+		</Parm>
+	</Parameters>
+</Root>

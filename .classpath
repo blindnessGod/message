@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CTRuleStructure"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CTFramework-component"/>
+	<classpathentry kind="lib" path="/CTExtLib/ext/com.ibm.mq.commonservices.jar"/>
+	<classpathentry kind="lib" path="/CTExtLib/ext/com.ibm.mq.headers.jar"/>
+	<classpathentry kind="lib" path="/CTExtLib/ext/com.ibm.mq.jar"/>
+	<classpathentry kind="lib" path="/CTExtLib/ext/com.ibm.mq.jmqi.jar"/>
+	<classpathentry kind="lib" path="/CTExtLib/ext/spring-beans-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/CTExtLib/ext/spring-aop-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/CTExtLib/ext/spring-context-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/CTExtLib/ext/spring-context-support-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/CTExtLib/ext/spring-core-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/CTExtLib/ext/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="/CTExtLib/ext/spring-aspects-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/CTExtLib/ext/spring-build-src-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/CTExtLib/ext/spring-data-redis-1.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/CTExtLib/ext/spring-expression-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/CTExtLib/ext/spring-instrument-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/CTExtLib/ext/spring-instrument-tomcat-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/CTExtLib/ext/spring-integration-core-2.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/CTExtLib/ext/jaxb-api.jar"/>
+	<classpathentry kind="lib" path="/CTExtLib/ext/jaxb-core.jar"/>
+	<classpathentry kind="lib" path="/CTExtLib/ext/jaxb-impl.jar"/>
+	<classpathentry kind="lib" path="/CTExtLib/ext/jaxb-jxc.jar"/>
+	<classpathentry kind="lib" path="/CTExtLib/ext/jaxb-xjc.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
